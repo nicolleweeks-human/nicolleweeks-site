@@ -1,4 +1,5 @@
 ---
+unlisted: true
 title: "The fame game"
 pubDate: 2006-10-02
 description: "This profile of author Zadie Smith originally appeared on Bravo.ca With tremendous success comes a price, but Zadie Smith is realistic about paying it She’s 30 years old, has…"

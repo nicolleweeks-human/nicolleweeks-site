@@ -1,4 +1,5 @@
 ---
+unlisted: true
 title: "There's Something About Mary Lou"
 pubDate: 2005-07-30
 description: "This piece on Mary Lou Finlay was published in the Ryerson Review of Journalism in 2005 It’s a crisp and sunny Sunday afternoon and I’m standing inside the sparse lobby at the…"

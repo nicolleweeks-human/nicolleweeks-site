@@ -21,6 +21,14 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
 
 body {
   font-family: var(--font-body);
@@ -211,8 +219,16 @@ a { color: inherit; text-decoration: none; }
   grid-template-columns: 1fr 1fr;
   min-height: 480px;
 }
-.case-text { padding: clamp(2.5rem, 6vw, 4.5rem); }
+.case-text { padding: clamp(2.5rem, 6vw, 4.5rem); display: flex; flex-direction: column; justify-content: center; }
 .case-text h3 { margin-bottom: 1.5rem; max-width: 12ch; }
+.case-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.65;
+  margin: 0 0 0.85rem;
+}
 .case-text h4 {
   font-family: var(--font-body);
   font-size: 1rem;
@@ -370,8 +386,14 @@ a { color: inherit; text-decoration: none; }
 }
 .writing-thumb--empty {
   display: block;
-  background: linear-gradient(135deg, var(--pink-soft), var(--yellow-soft));
-  opacity: 0.6;
+  background-color: var(--pink-soft);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--yellow-soft) 0,
+    var(--yellow-soft) 6px,
+    var(--pink-soft) 6px,
+    var(--pink-soft) 14px
+  );
 }
 .writing-meta { flex: 1; min-width: 0; }
 @media (max-width: 540px) {
@@ -488,7 +510,13 @@ a { color: inherit; text-decoration: none; }
   transition: border-color 0.15s ease;
 }
 .nav-link:hover { border-bottom-color: var(--pink); }
-.nav-right { display: flex; align-items: center; gap: 0.5rem; }
+.nav-right { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; justify-content: flex-end; }
+.nav { flex-wrap: wrap; gap: 1rem; }
+@media (max-width: 520px) {
+  .nav { padding: 1rem var(--pad); }
+  .nav-link { margin-right: 0.5rem; font-size: 0.85rem; }
+  .nav-right .btn { padding: 0.6rem 1rem; font-size: 0.85rem; }
+}
 
 /* SITE FOOTER (shared, all pages) */
 .site-footer {

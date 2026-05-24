@@ -1,4 +1,5 @@
 ---
+unlisted: true
 title: "Your job interview survival kit"
 pubDate: 2004-06-02
 description: "This article originally appeared on homemakers.com What's tucked away in that smart tote you're carrying can help you land your vocational dream."

@@ -1,4 +1,5 @@
 ---
+unlisted: true
 title: "Top 10 DVDs for your existential crisis"
 pubDate: 2007-08-01
 description: "This article originally appeared on slice.ca Top ten DVDS for your existential crisis What better topic for a top ten list than the ol’ existential crisis? What are we here for?…"

@@ -150,8 +150,8 @@ const awards = [
     {cases.map((c) => (
       <article class={`case case--${c.variant}`}>
         <div class="case-text">
+          <p class="case-eyebrow">{c.sub}</p>
           <h3>{c.title}</h3>
-          <p style="font-weight:600; opacity:0.75; margin-top:-1rem; margin-bottom:1.5rem;">{c.sub}</p>
           <h4>The brief</h4>
           <p>{c.brief}</p>
           <h4>The execution</h4>

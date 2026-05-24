@@ -1,4 +1,5 @@
 ---
+unlisted: true
 title: "Fall for Autumn"
 pubDate: 2005-09-30
 description: "This piece originally appeared on CityLine.ca Trade your summer cottage look for autumn cabin warmth."

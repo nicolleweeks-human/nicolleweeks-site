@@ -1,4 +1,5 @@
 ---
+unlisted: true
 title: "Focus on yourself, especially after a split"
 pubDate: 2007-05-05
 description: "This piece was nationally syndicated in Canwest newspapers My first job was a receptionist position at a big broadcaster. One of the most impressive women at the company was the…"
