@@ -40,6 +40,9 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', {
       <p class="article-back"><a href="/writing/">← All writing</a></p>
       {date && <time class="article-date">{date}</time>}
       <h1>{post.data.title}</h1>
+      {post.data.heroImage && (
+        <img class="article-hero" src={post.data.heroImage} alt="" loading="lazy" />
+      )}
       <div class="article-body">
         <Content />
       </div>

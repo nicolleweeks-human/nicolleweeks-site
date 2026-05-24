@@ -391,6 +391,15 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.1;
   margin-bottom: 2rem;
 }
+.article-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 2.5rem;
+}
 .article-body {
   font-size: 1.05rem;
   line-height: 1.7;
