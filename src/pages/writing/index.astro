@@ -2,17 +2,22 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('writing', ({ data }) => !data.unlisted)).sort((a, b) => {
+const all = (await getCollection('writing', ({ data }) => !data.unlisted)).sort((a, b) => {
   const da = a.data.pubDate?.valueOf() ?? 0;
   const db = b.data.pubDate?.valueOf() ?? 0;
   return db - da;
 });
 
+const featured = all.filter((p) => p.data.featured);
+const [lead, ...secondary] = featured;
+const featuredSlugs = new Set(featured.map((p) => p.slug));
+const rest = all.filter((p) => !featuredSlugs.has(p.slug));
+
 const fmt = (d?: Date) =>
   d ? d.toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
 ---
 
-<Layout title="Writing — Nicolle Weeks" description="Articles by Nicolle Weeks on content strategy, music, parenting, finance, and the work behind the work.">
+<Layout title="Writing — Nicolle Weeks" description="Selected stories, profiles, and essays by Nicolle Weeks — on AI literacy, content design, and the work behind the work.">
   <nav class="nav nav--solid">
     <a href="/" class="logo">
       <span class="logo-mark" aria-hidden="true">
@@ -32,17 +37,54 @@ const fmt = (d?: Date) =>
     </div>
   </nav>
 
-  <header class="writing-header">
+  <header class="mag-header">
     <div class="wrap">
-      <h1>Writing</h1>
-      <p>Articles, profiles, and project notes — going back to 2009.</p>
+      <p class="mag-eyebrow">Writing</p>
+      <h1>Stories, profiles & essays from twenty years on the beat.</h1>
     </div>
   </header>
 
+  {lead && (
+    <section class="mag-lead">
+      <a href={`/writing/${lead.slug}/`} class="mag-lead-link">
+        {lead.data.heroImage && (
+          <img src={lead.data.heroImage} alt="" class="mag-lead-img" loading="eager" />
+        )}
+        <div class="mag-lead-text">
+          {lead.data.kicker && <p class="mag-kicker">{lead.data.kicker}</p>}
+          <h2 class="mag-lead-title">{lead.data.title}</h2>
+          {lead.data.description && <p class="mag-lead-stand">{lead.data.description}</p>}
+          <p class="mag-byline">By Nicolle Weeks · {fmt(lead.data.pubDate)}</p>
+        </div>
+      </a>
+    </section>
+  )}
+
+  {secondary.length > 0 && (
+    <section class="mag-secondary">
+      <div class="wrap">
+        <div class="mag-secondary-grid">
+          {secondary.map((p) => (
+            <a href={`/writing/${p.slug}/`} class="mag-card">
+              {p.data.heroImage && (
+                <img src={p.data.heroImage} alt="" class="mag-card-img" loading="lazy" />
+              )}
+              {p.data.kicker && <p class="mag-kicker">{p.data.kicker}</p>}
+              <h3 class="mag-card-title">{p.data.title}</h3>
+              {p.data.description && <p class="mag-card-stand">{p.data.description}</p>}
+              <p class="mag-byline">By Nicolle Weeks · {fmt(p.data.pubDate)}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   <section class="writing-list">
     <div class="wrap">
+      <p class="mag-section-label">More writing</p>
       <ul>
-        {posts.map((post) => (
+        {rest.map((post) => (
           <li>
             <a href={`/writing/${post.slug}/`}>
               {post.data.heroImage ? (

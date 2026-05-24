@@ -39,22 +39,30 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', {
     </div>
   </nav>
 
-  <article class="article">
-    <div class="wrap article-wrap">
-      <p class="article-back"><a href="/writing/">← All writing</a></p>
-      {date && <time class="article-date">{date}</time>}
-      <h1>{post.data.title}</h1>
-      {post.data.heroImage && (
-        <img class="article-hero" src={post.data.heroImage} alt="" loading="lazy" />
-      )}
-      <div class="article-body">
-        <Content />
+  <article class="article-magazine">
+    <p class="article-mag-back"><a href="/writing/">← Writing</a></p>
+
+    <header class="article-mag-header">
+      <div class="wrap">
+        {post.data.kicker && <p class="article-mag-kicker">{post.data.kicker}</p>}
+        <h1>{post.data.title}</h1>
+        {post.data.description && <p class="article-mag-stand">{post.data.description}</p>}
+        {date && <p class="article-mag-byline">By Nicolle Weeks · {date}</p>}
       </div>
-      {post.data.originalUrl && (
-        <p class="article-source">
-          Originally published at <a href={post.data.originalUrl}>{post.data.originalUrl}</a>
-        </p>
-      )}
+    </header>
+
+    {post.data.heroImage && (
+      <img class="article-mag-hero" src={post.data.heroImage} alt="" loading="eager" />
+    )}
+
+    <div class="article-mag-body">
+      <Content />
     </div>
+
+    {post.data.originalUrl && (
+      <p class="article-mag-source">
+        Originally published at <a href={post.data.originalUrl}>{post.data.originalUrl}</a>
+      </p>
+    )}
   </article>
 </Layout>

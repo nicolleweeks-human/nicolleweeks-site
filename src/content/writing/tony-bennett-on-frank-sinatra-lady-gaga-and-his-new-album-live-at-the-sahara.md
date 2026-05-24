@@ -1,7 +1,9 @@
 ---
+featured: true
+kicker: "Profile"
 title: "Tony Bennett on Frank Sinatra, Lady Gaga and his new album, Live at the Sahara"
 pubDate: 2013-10-08
-description: "I had the pleasure of interviewing Tony Bennett for CBC.ca Tony Bennett’s catalogue extends over 60 years, and his career is an extensive one. Bennett has worked with a plethora…"
+description: "An interview with Tony Bennett on six decades of song, his collaborators, and the discipline of staying current."
 heroImage: "/images/writing/tony-bennett-on-frank-sinatra-lady-gaga-and-his-new-album-live-at-the-sahara.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/tony-bennett-on-frank-sinatra-lady-gaga-and-his-new-album-live-at-the-sahara"
 ---

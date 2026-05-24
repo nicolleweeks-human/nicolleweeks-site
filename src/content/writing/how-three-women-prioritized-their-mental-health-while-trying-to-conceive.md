@@ -1,7 +1,9 @@
 ---
+featured: true
+kicker: "Reportage · Today's Parent"
 title: "How Three Women Prioritized Their Mental Health While Trying to Conceive"
 pubDate: 2024-09-03
-description: "(Client: Today's Parent x First Response)"
+description: "Three women on the quiet, sustained work of protecting their mental health through fertility."
 heroImage: "/images/writing/how-three-women-prioritized-their-mental-health-while-trying-to-conceive.png"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/how-three-women-prioritized-their-mental-health-while-trying-to-conceive"
 ---

@@ -7,6 +7,9 @@ const baseSchema = z.object({
   heroImage: z.string().optional(),
   originalUrl: z.string().optional(),
   unlisted: z.boolean().optional(),
+  featured: z.boolean().optional(),
+  kicker: z.string().optional(),
+  standfirst: z.string().optional(),
 });
 
 const writing = defineCollection({ type: 'content', schema: baseSchema });

@@ -1,7 +1,9 @@
 ---
+featured: true
+kicker: "Essay · BEYOND Magazine"
 title: "Toronto's AI-Powered Future"
 pubDate: 2024-11-29
-description: "(For BEYOND Magazine, Fall 2024)"
+description: "What it will take for Toronto to lead — not just adopt — the next wave of AI."
 heroImage: "/images/writing/toronto-s-ai-powered-future.png"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/toronto-s-ai-powered-future"
 ---
