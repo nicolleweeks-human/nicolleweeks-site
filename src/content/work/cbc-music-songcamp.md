@@ -2,6 +2,7 @@
 title: "CBC Music SongCamp: co-creating CBC's first YouTube-to-TV series"
 pubDate: 2014-10-30
 description: "Co-creator of SongCamp — the CBC Music series that brought Canada's YouTube music creators into the CBC studio and onto television for the first time."
+heroVideo: "bATz_Bsszw4"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/cbc-music-songcamp"
 ---
 
