@@ -101,7 +101,7 @@ const awards = [
             I'm a Toronto-based strategist with 20+ years across journalism, content marketing, and content design — building digital experiences for national broadcasters, financial brands, and the people who actually use them.
           </p>
           <p>
-            Today I run <strong>Trustfall</strong>, a studio that helps small businesses sound like themselves and ship work that earns trust. I also write <a href="https://nicolleweeks.substack.com/" style="color: var(--yellow); border-bottom: 2px solid var(--yellow);">Human+AI</a>, a Substack on AI literacy for working professionals.
+            Today I run <strong>Trustfall</strong>, a studio that helps small businesses sound like themselves and ship work that earns trust. I also write <a href="https://nicolleweeks.substack.com/" style="color: #F4C842; border-bottom: 2px solid #F4C842;">Human+AI</a>, a Substack on AI literacy for working professionals.
           </p>
         </div>
         <div class="about-photo">
@@ -158,10 +158,49 @@ const awards = [
           <p>{c.execution}</p>
         </div>
         <div class="case-image">
-          <div class="case-image-placeholder">
-            <em>Project mockup goes here</em><br />
-            <small>(drop image in /public/images/)</small>
-          </div>
+          <svg class="case-art" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            {c.variant === 'yellow' && (
+              <g>
+                <rect x="60" y="80" width="280" height="240" rx="8" fill="#5C0E1B" />
+                <rect x="60" y="80" width="280" height="38" rx="8" fill="#3F0712" />
+                <circle cx="78" cy="99" r="4" fill="#FFB3D2" />
+                <circle cx="92" cy="99" r="4" fill="#F4C842" />
+                <circle cx="106" cy="99" r="4" fill="#F8F4EC" />
+                <rect x="80" y="140" width="180" height="14" rx="7" fill="#FFB3D2" />
+                <rect x="80" y="166" width="140" height="10" rx="5" fill="#F8F4EC" opacity="0.7" />
+                <rect x="80" y="200" width="240" height="60" rx="6" fill="#F4C842" />
+                <rect x="96" y="220" width="120" height="10" rx="5" fill="#5C0E1B" />
+                <rect x="96" y="238" width="80" height="8" rx="4" fill="#5C0E1B" opacity="0.6" />
+                <rect x="80" y="278" width="100" height="28" rx="14" fill="#FFB3D2" />
+              </g>
+            )}
+            {c.variant === 'pink' && (
+              <g>
+                <rect x="40" y="60" width="140" height="280" rx="6" fill="#5C0E1B" />
+                <rect x="200" y="60" width="160" height="135" rx="6" fill="#004F54" />
+                <rect x="200" y="205" width="160" height="135" rx="6" fill="#5C0E1B" />
+                <rect x="60" y="84" width="100" height="10" rx="5" fill="#FFB3D2" />
+                <rect x="60" y="104" width="70" height="8" rx="4" fill="#F8F4EC" opacity="0.6" />
+                <rect x="60" y="138" width="100" height="8" rx="4" fill="#F8F4EC" opacity="0.5" />
+                <rect x="60" y="156" width="80" height="8" rx="4" fill="#F8F4EC" opacity="0.5" />
+                <rect x="60" y="174" width="100" height="8" rx="4" fill="#F8F4EC" opacity="0.5" />
+                <rect x="60" y="192" width="60" height="8" rx="4" fill="#F8F4EC" opacity="0.5" />
+                <circle cx="280" cy="127" r="34" fill="#F4C842" />
+                <rect x="220" y="240" width="120" height="8" rx="4" fill="#F8F4EC" />
+                <rect x="220" y="258" width="90" height="8" rx="4" fill="#F8F4EC" opacity="0.7" />
+                <rect x="220" y="290" width="60" height="24" rx="12" fill="#FFB3D2" />
+              </g>
+            )}
+            {c.variant === 'green' && (
+              <g>
+                <circle cx="200" cy="200" r="150" fill="#5C0E1B" />
+                <circle cx="200" cy="200" r="100" fill="#F4C842" />
+                <circle cx="200" cy="200" r="50" fill="#FFB3D2" />
+                <rect x="40" y="195" width="320" height="10" fill="#F8F4EC" opacity="0.85" />
+                <rect x="195" y="40" width="10" height="320" fill="#F8F4EC" opacity="0.85" />
+              </g>
+            )}
+          </svg>
         </div>
       </article>
     ))}
@@ -215,15 +254,4 @@ const awards = [
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-socials">
-      <a href="https://www.linkedin.com/in/nicolle/" aria-label="LinkedIn" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.2 8h4.6v14H.2V8zm7.4 0h4.4v2h.07c.61-1.16 2.11-2.38 4.34-2.38 4.64 0 5.5 3.06 5.5 7.03V22h-4.6v-6.27c0-1.5-.03-3.43-2.09-3.43-2.09 0-2.41 1.63-2.41 3.32V22H7.6V8z"/></svg>
-      </a>
-      <a href="https://nicolleweeks.substack.com/" aria-label="Substack" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
-      </a>
-    </div>
-  </footer>
 </Layout>

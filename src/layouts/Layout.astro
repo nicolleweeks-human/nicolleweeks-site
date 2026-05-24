@@ -31,6 +31,39 @@ import '../styles/global.css';
     <meta property="og:url" content="https://nicolleweeks.ca/" />
   </head>
   <body>
-    <slot />
+    <a href="#main" class="skip-link">Skip to content</a>
+    <div id="main">
+      <slot />
+    </div>
+    <footer class="site-footer">
+      <div class="wrap site-footer-inner">
+        <div class="site-footer-brand">
+          <span class="site-footer-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <rect x="4" y="6" width="3" height="20" fill="#FFB3D2" />
+              <rect x="11" y="6" width="3" height="20" fill="#FFB3D2" />
+              <rect x="18" y="6" width="3" height="20" fill="#FFB3D2" />
+              <rect x="25" y="6" width="3" height="20" fill="#FFB3D2" />
+            </svg>
+          </span>
+          <span>Nicolle Weeks</span>
+        </div>
+        <nav class="site-footer-nav" aria-label="Footer">
+          <a href="/">Home</a>
+          <a href="/work/">Work</a>
+          <a href="/writing/">Writing</a>
+          <a href="/#contact">Contact</a>
+        </nav>
+        <div class="site-footer-socials">
+          <a href="https://www.linkedin.com/in/nicolle/" aria-label="LinkedIn on opens in a new tab" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.2 8h4.6v14H.2V8zm7.4 0h4.4v2h.07c.61-1.16 2.11-2.38 4.34-2.38 4.64 0 5.5 3.06 5.5 7.03V22h-4.6v-6.27c0-1.5-.03-3.43-2.09-3.43-2.09 0-2.41 1.63-2.41 3.32V22H7.6V8z"/></svg>
+          </a>
+          <a href="https://nicolleweeks.substack.com/" aria-label="Substack, opens in a new tab" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+          </a>
+        </div>
+        <p class="site-footer-meta">© {new Date().getFullYear()} Nicolle Weeks. Built in Toronto.</p>
+      </div>
+    </footer>
   </body>
 </html>

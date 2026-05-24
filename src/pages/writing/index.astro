@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('writing')).sort((a, b) => {
+const posts = (await getCollection('writing', ({ data }) => !data.unlisted)).sort((a, b) => {
   const da = a.data.pubDate?.valueOf() ?? 0;
   const db = b.data.pubDate?.valueOf() ?? 0;
   return db - da;
@@ -27,6 +27,7 @@ const fmt = (d?: Date) =>
     </a>
     <div class="nav-right">
       <a href="/work/" class="nav-link">Work</a>
+      <a href="/writing/" class="nav-link" aria-current="page">Writing</a>
       <a href="/#contact" class="btn btn-yellow">Let's collaborate</a>
     </div>
   </nav>
