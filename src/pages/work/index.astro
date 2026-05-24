@@ -2,17 +2,17 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('writing')).sort((a, b) => {
+const projects = (await getCollection('work')).sort((a, b) => {
   const da = a.data.pubDate?.valueOf() ?? 0;
   const db = b.data.pubDate?.valueOf() ?? 0;
   return db - da;
 });
 
 const fmt = (d?: Date) =>
-  d ? d.toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+  d ? d.toLocaleDateString('en-CA', { year: 'numeric', month: 'long' }) : '';
 ---
 
-<Layout title="Writing — Nicolle Weeks" description="Articles by Nicolle Weeks on content strategy, music, parenting, finance, and the work behind the work.">
+<Layout title="Work — Nicolle Weeks" description="Selected case studies in content design, conversational UX, and design systems.">
   <nav class="nav nav--solid">
     <a href="/" class="logo">
       <span class="logo-mark" aria-hidden="true">
@@ -27,32 +27,33 @@ const fmt = (d?: Date) =>
     </a>
     <div class="nav-right">
       <a href="/work/" class="nav-link">Work</a>
+      <a href="/writing/" class="nav-link">Writing</a>
       <a href="/#contact" class="btn btn-yellow">Let's collaborate</a>
     </div>
   </nav>
 
   <header class="writing-header">
     <div class="wrap">
-      <h1>Writing</h1>
-      <p>Articles, profiles, and project notes — going back to 2009.</p>
+      <h1>Work</h1>
+      <p>Selected case studies — content design, conversational UX, and the systems behind them.</p>
     </div>
   </header>
 
   <section class="writing-list">
     <div class="wrap">
       <ul>
-        {posts.map((post) => (
+        {projects.map((p) => (
           <li>
-            <a href={`/writing/${post.slug}/`}>
-              {post.data.heroImage ? (
-                <img class="writing-thumb" src={post.data.heroImage} alt="" loading="lazy" />
+            <a href={`/work/${p.slug}/`}>
+              {p.data.heroImage ? (
+                <img class="writing-thumb" src={p.data.heroImage} alt="" loading="lazy" />
               ) : (
                 <span class="writing-thumb writing-thumb--empty" aria-hidden="true"></span>
               )}
               <div class="writing-meta">
-                <time>{fmt(post.data.pubDate)}</time>
-                <h2>{post.data.title}</h2>
-                {post.data.description && <p>{post.data.description}</p>}
+                <time>{fmt(p.data.pubDate)}</time>
+                <h2>{p.data.title}</h2>
+                {p.data.description && <p>{p.data.description}</p>}
               </div>
             </a>
           </li>

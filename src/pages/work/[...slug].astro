@@ -3,20 +3,13 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('writing');
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: { post },
-  }));
+  const projects = await getCollection('work');
+  return projects.map((p) => ({ params: { slug: p.slug }, props: { post: p } }));
 }
 
 const { post } = Astro.props;
 const { Content } = await post.render();
-const date = post.data.pubDate?.toLocaleDateString('en-CA', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
+const date = post.data.pubDate?.toLocaleDateString('en-CA', { year: 'numeric', month: 'long' });
 ---
 
 <Layout title={`${post.data.title} — Nicolle Weeks`} description={post.data.description}>
@@ -34,13 +27,14 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', {
     </a>
     <div class="nav-right">
       <a href="/work/" class="nav-link">Work</a>
+      <a href="/writing/" class="nav-link">Writing</a>
       <a href="/#contact" class="btn btn-yellow">Let's collaborate</a>
     </div>
   </nav>
 
   <article class="article">
     <div class="wrap article-wrap">
-      <p class="article-back"><a href="/writing/">← All writing</a></p>
+      <p class="article-back"><a href="/work/">← All work</a></p>
       {date && <time class="article-date">{date}</time>}
       <h1>{post.data.title}</h1>
       {post.data.heroImage && (

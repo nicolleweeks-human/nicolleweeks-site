@@ -1,12 +1,14 @@
 ---
 title: "Album Review: Usher's Looking For Myself"
 pubDate: 2012-03-30
-description: "Usher integrates new sounds to create a work of palatable radio-friendly dance music Usher integrates new sounds to create a work of palatable radio-friendly dance music Some…"
+description: "Usher integrates new sounds to create a work of palatable radio-friendly dance music."
 heroImage: "/images/writing/album-review-usher-s-looking-for-myself.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/album-review-usher-s-looking-for-myself"
 ---
 
-Usher integrates new sounds to create a work of palatable radio-friendly dance music Usher integrates new sounds to create a work of palatable radio-friendly dance music Some younger fans might know Usher as the man who brought them Justin Bieber , but he rose to pop success on his own accord in 1994, when at the tender age of 16, he released his self-titled debut album. Many pop stars have come and gone since 1994 (who could forget Venga Boys... or 5ive, for that matter! Or have you forgotten?), but Usher has carefully crafted a long-lasting music career. Now he's back with his latest attempt at pop success.
+## Usher integrates new sounds to create a work of palatable radio-friendly dance music
+
+Some younger fans might know Usher as the man who brought them Justin Bieber , but he rose to pop success on his own accord in 1994, when at the tender age of 16, he released his self-titled debut album. Many pop stars have come and gone since 1994 (who could forget Venga Boys... or 5ive, for that matter! Or have you forgotten?), but Usher has carefully crafted a long-lasting music career. Now he's back with his latest attempt at pop success.
 
 Let it be said that Looking for Myself is a pop masterpiece, full of songs with dance sensibilities that deal with issues beyond love stories. An artist that's straddled genres, Usher leans heavily towards dance over hip-hop on this album.
 
