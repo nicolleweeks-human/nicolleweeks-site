@@ -1065,3 +1065,108 @@ h1:focus-visible, h2:focus-visible, h3:focus-visible {
   margin: 0;
   color: #2B2B2B;
 }
+
+/* ============================================================
+   /about page — match homepage rhythm
+   ============================================================ */
+.about-belief {
+  background: var(--yellow);
+  color: var(--ink);
+  padding: clamp(3.5rem, 7vw, 5.5rem) 0;
+}
+.belief-card {
+  max-width: 720px;
+}
+.belief-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--maroon);
+  margin: 0 0 1.25rem;
+}
+.belief-claim {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.5rem, 2.8vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.belief-claim strong { display: block; margin-bottom: 0.5rem; }
+
+/* "What I work on" list inside the teal services block */
+.work-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 760px;
+  text-align: left;
+}
+.work-list li {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.55;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  color: var(--paper);
+}
+.work-list li:last-child { border-bottom: none; }
+.work-list strong { color: var(--pink); font-weight: 600; }
+
+/* Credentials block (pink-soft panel) */
+.about-creds-section {
+  background: var(--pink-soft);
+  padding: clamp(3.5rem, 7vw, 5.5rem) 0;
+}
+.creds-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.creds-block p { margin: 0; font-family: var(--font-body); font-size: 0.95rem; line-height: 1.55; color: var(--ink); }
+.creds-label {
+  font-family: var(--font-display) !important;
+  font-weight: 400 !important;
+  font-size: 0.95rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--maroon) !important;
+  margin: 0 0 0.5rem !important;
+}
+.creds-block a { color: var(--maroon); border-bottom: 1px solid var(--maroon); }
+@media (max-width: 640px) {
+  .creds-grid { grid-template-columns: 1fr; }
+}
+
+/* FAQ (rendered in awards section style — maroon background) */
+.awards .faq-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 720px;
+  text-align: left;
+}
+.awards .faq-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+.awards .faq-item:last-child { border-bottom: none; }
+.awards .faq-item dt {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
+  color: var(--pink);
+}
+.awards .faq-item dd {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #F2EFEA;
+}
