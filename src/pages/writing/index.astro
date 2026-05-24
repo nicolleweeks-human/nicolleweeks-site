@@ -41,9 +41,16 @@ const fmt = (d?: Date) =>
         {posts.map((post) => (
           <li>
             <a href={`/writing/${post.slug}/`}>
-              <time>{fmt(post.data.pubDate)}</time>
-              <h2>{post.data.title}</h2>
-              {post.data.description && <p>{post.data.description}</p>}
+              {post.data.heroImage ? (
+                <img class="writing-thumb" src={post.data.heroImage} alt="" loading="lazy" />
+              ) : (
+                <span class="writing-thumb writing-thumb--empty" aria-hidden="true"></span>
+              )}
+              <div class="writing-meta">
+                <time>{fmt(post.data.pubDate)}</time>
+                <h2>{post.data.title}</h2>
+                {post.data.description && <p>{post.data.description}</p>}
+              </div>
             </a>
           </li>
         ))}
