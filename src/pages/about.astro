@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const pageTitle = 'About — Nicolle Weeks';
+const pageDescription = 'Nicolle Weeks is a Toronto-based content design director and writer working on AI literacy for working professionals.';
+
+const faqs = [
+  {
+    q: 'Who is Nicolle Weeks?',
+    a: "Toronto-based content design director and writer. She led content design on Scotiabank's award-winning conversational assistant, runs the small-business studio Trustfall, and writes Human+AI, a Substack on AI literacy for working professionals.",
+  },
+  {
+    q: "What is Nicolle Weeks' background?",
+    a: "20+ years across journalism, content marketing, and digital product. Her work spans national broadcasters and one of Canada's largest banks, with a focus on content design for products that have to be trustworthy: financial services, regulated digital experiences, and conversational AI.",
+  },
+  {
+    q: 'Where is Nicolle Weeks based?',
+    a: 'Toronto, Ontario, Canada. She works with clients across North America.',
+  },
+  {
+    q: 'Is Nicolle Weeks available for hire?',
+    a: 'Yes, through Trustfall for brand, web, content, and social work for small businesses, and for speaking, podcast, and advising inquiries directly. Contact: hello@trustfall.ca.',
+  },
+  {
+    q: 'What is Trustfall?',
+    a: 'Trustfall is the studio Nicolle founded for small businesses that need their brand, website, content, and social to sound like one company. The studio builds the work and the operating system behind it.',
+  },
+  {
+    q: 'What is Human+AI?',
+    a: "Nicolle's Substack on AI literacy for working professionals, written for the managers, individual contributors, and operators in regulated industries who want clear, honest answers about how to use AI tools well.",
+  },
+  {
+    q: 'What does Nicolle Weeks write about?',
+    a: 'AI literacy for working professionals, content design for financial services, conversational AI, marketing for small businesses, and building content teams. Her writing lives at nicolleweeks.substack.com (Human+AI) and on this site.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <nav class="nav nav--solid">
+    <a href="/" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none">
+          <rect x="4" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="11" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="18" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="25" y="6" width="3" height="20" fill="#FFB3D2" />
+        </svg>
+      </span>
+      <span>Nicolle<br />Weeks</span>
+    </a>
+    <div class="nav-right">
+      <a href="/about/" class="nav-link" aria-current="page">About</a>
+      <a href="/work/" class="nav-link">Work</a>
+      <a href="/writing/" class="nav-link">Writing</a>
+      <a href="/#contact" class="btn btn-yellow">Let's collaborate</a>
+    </div>
+  </nav>
+
+  <header class="about-hero">
+    <div class="wrap">
+      <p class="mag-eyebrow">About</p>
+      <h1>I'm Nicolle Weeks, a content design director and writer in Toronto.</h1>
+      <p class="about-lede">
+        I've spent 20+ years working at the seam where language meets product: as a journalist, a content marketer, and most recently as the lead content designer behind Scotiabank's conversational assistant. Today I run Trustfall, a small-business studio, and write Human+AI, a Substack on AI literacy for working professionals.
+      </p>
+    </div>
+  </header>
+
+  <section class="about-section about-believe">
+    <div class="wrap">
+      <p class="about-section-label">What I believe</p>
+      <blockquote class="about-claim">
+        <p><strong>Small businesses deserve the same craft that big brands buy.</strong> Most of them are paying for templates and calling it strategy. Trustfall exists because that gap shouldn't be this wide.</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="wrap about-grid">
+      <div>
+        <p class="about-section-label">What I work on</p>
+        <ul class="about-list">
+          <li><strong>Marketing and content for small businesses.</strong> The Trustfall focus: brand voice, web copy, content systems, and the operating model behind them.</li>
+          <li><strong>AI literacy for working professionals.</strong> The Human+AI thesis, applied: AI as a workplace skill, not a technical one.</li>
+          <li><strong>Communications and AI in financial services.</strong> Writing, content design, and conversational AI for products people have to trust.</li>
+          <li><strong>Building and scaling content teams.</strong> Hiring, intake, mentorship, the unglamorous scaffolding that makes craft repeatable.</li>
+          <li><strong>Editorial and storytelling for media and brands.</strong> Journalism instincts applied to product, sponsorship, and brand work.</li>
+        </ul>
+      </div>
+      <div>
+        <p class="about-section-label">Credentials</p>
+        <div class="about-creds">
+          <p><strong>Today.</strong> Director of Communications and AI at Manulife. Founder of Trustfall. Writer of Human+AI.</p>
+          <p><strong>Selected work.</strong> Lead content design on Scotiabank's conversational assistant (2020 to 2025). Author of the Scotia Digital Style Guide. Scaled Scotiabank's content design team across five business lines. Content lead on the CBC Music × Sun Life "Sarah McLachlan's School of Music" campaign.</p>
+          <p><strong>Recognition.</strong> 2023 Digital Transformation Award (IT World Canada). 2022 Best of the Best Award (Scotiabank). 2022 Employee Communications Award (Ragan). 2016 Sponsorship Marketing Award (SMCC). 2011 W³ Award.</p>
+          <p><strong>Based in.</strong> Toronto, Ontario.</p>
+          <p><strong>Inquiries.</strong> <a href="mailto:hello@trustfall.ca">hello@trustfall.ca</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section about-faq">
+    <div class="wrap">
+      <p class="about-section-label">Common questions</p>
+      <dl class="faq-list">
+        {faqs.map((f) => (
+          <div class="faq-item">
+            <dt>{f.q}</dt>
+            <dd>{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)}></script>
+</Layout>

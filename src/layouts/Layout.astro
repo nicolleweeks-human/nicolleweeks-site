@@ -5,9 +5,40 @@ interface Props {
 }
 
 const {
-  title = 'Nicolle Weeks — Award-winning marketing, digital and content strategist',
-  description = 'Toronto-based marketing, digital, and content strategist. 20+ years building brands, content systems, and digital experiences for media and financial services.',
+  title = 'Nicolle Weeks | Content design, conversational AI, and AI literacy for working professionals',
+  description = 'Content design, conversational AI, and AI literacy by Nicolle Weeks. 20+ years across journalism, financial services, and digital product. Toronto-based.',
 } = Astro.props;
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Nicolle Weeks',
+  url: 'https://nicolleweeks.ca/',
+  image: 'https://nicolleweeks.ca/images/headshot.jpg',
+  jobTitle: 'Content design director',
+  description:
+    "Nicolle Weeks writes and works on AI literacy for working professionals. A Toronto-based content design director with 20+ years across journalism, content marketing, and financial-services product, she led content design on Scotiabank's conversational assistant, a pre-LLM AI experience that resolved 85% of customer inquiries without escalation and earned the 2023 Digital Transformation Award. She built the Scotia Digital Style Guide, scaled a content design team across five business lines, and now runs Trustfall, a studio helping small businesses ship brand, web, and content work that earns trust. Through her Substack Human+AI, she writes for the people AI is changing the workday for: managers, individual contributors, and operators in regulated industries who need clear, honest answers about how to use these tools well.",
+  worksFor: [
+    { '@type': 'Organization', name: 'Trustfall', url: 'https://trustfall.ca/' },
+  ],
+  knowsAbout: [
+    'Marketing and content strategy for small businesses',
+    'Content design for financial services',
+    'AI literacy for working professionals',
+    'Building and scaling content design teams',
+    'Design systems and content governance',
+  ],
+  sameAs: [
+    'https://www.linkedin.com/in/nicolle/',
+    'https://nicolleweeks.substack.com/',
+  ],
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Toronto',
+    addressRegion: 'ON',
+    addressCountry: 'CA',
+  },
+};
 
 import '../styles/global.css';
 ---
@@ -29,6 +60,8 @@ import '../styles/global.css';
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nicolleweeks.ca/" />
+    <link rel="canonical" href={`https://nicolleweeks.ca${Astro.url.pathname}`} />
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)}></script>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
