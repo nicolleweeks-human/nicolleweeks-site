@@ -51,18 +51,24 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', {
       </div>
     </header>
 
-    {post.data.heroImage && (
+    {post.data.heroVideo ? (
+      <div class="article-mag-video">
+        <iframe
+          src={`https://www.youtube-nocookie.com/embed/${post.data.heroVideo}`}
+          title={post.data.title}
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    ) : post.data.heroImage ? (
       <img class="article-mag-hero" src={post.data.heroImage} alt="" loading="eager" />
-    )}
+    ) : null}
 
     <div class="article-mag-body">
       <Content />
     </div>
-
-    {post.data.originalUrl && (
-      <p class="article-mag-source">
-        Originally published at <a href={post.data.originalUrl}>{post.data.originalUrl}</a>
-      </p>
-    )}
   </article>
 </Layout>

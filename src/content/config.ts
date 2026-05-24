@@ -5,6 +5,7 @@ const baseSchema = z.object({
   pubDate: z.coerce.date().optional(),
   description: z.string().optional(),
   heroImage: z.string().optional(),
+  heroVideo: z.string().optional(),
   originalUrl: z.string().optional(),
   unlisted: z.boolean().optional(),
   featured: z.boolean().optional(),
