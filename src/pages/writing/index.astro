@@ -1,0 +1,53 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('writing')).sort((a, b) => {
+  const da = a.data.pubDate?.valueOf() ?? 0;
+  const db = b.data.pubDate?.valueOf() ?? 0;
+  return db - da;
+});
+
+const fmt = (d?: Date) =>
+  d ? d.toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+---
+
+<Layout title="Writing — Nicolle Weeks" description="Articles by Nicolle Weeks on content strategy, music, parenting, finance, and the work behind the work.">
+  <nav class="nav nav--solid">
+    <a href="/" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none">
+          <rect x="4" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="11" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="18" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="25" y="6" width="3" height="20" fill="#FFB3D2" />
+        </svg>
+      </span>
+      <span>Nicolle<br />Weeks</span>
+    </a>
+    <a href="/#contact" class="btn btn-yellow">Let's collaborate</a>
+  </nav>
+
+  <header class="writing-header">
+    <div class="wrap">
+      <h1>Writing</h1>
+      <p>Articles, profiles, and project notes — going back to 2009.</p>
+    </div>
+  </header>
+
+  <section class="writing-list">
+    <div class="wrap">
+      <ul>
+        {posts.map((post) => (
+          <li>
+            <a href={`/writing/${post.slug}/`}>
+              <time>{fmt(post.data.pubDate)}</time>
+              <h2>{post.data.title}</h2>
+              {post.data.description && <p>{post.data.description}</p>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,53 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('writing');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const date = post.data.pubDate?.toLocaleDateString('en-CA', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<Layout title={`${post.data.title} — Nicolle Weeks`} description={post.data.description}>
+  <nav class="nav nav--solid">
+    <a href="/" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none">
+          <rect x="4" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="11" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="18" y="6" width="3" height="20" fill="#FFB3D2" />
+          <rect x="25" y="6" width="3" height="20" fill="#FFB3D2" />
+        </svg>
+      </span>
+      <span>Nicolle<br />Weeks</span>
+    </a>
+    <a href="/#contact" class="btn btn-yellow">Let's collaborate</a>
+  </nav>
+
+  <article class="article">
+    <div class="wrap article-wrap">
+      <p class="article-back"><a href="/writing/">← All writing</a></p>
+      {date && <time class="article-date">{date}</time>}
+      <h1>{post.data.title}</h1>
+      <div class="article-body">
+        <Content />
+      </div>
+      {post.data.originalUrl && (
+        <p class="article-source">
+          Originally published at <a href={post.data.originalUrl}>{post.data.originalUrl}</a>
+        </p>
+      )}
+    </div>
+  </article>
+</Layout>

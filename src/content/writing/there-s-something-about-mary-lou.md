@@ -1,0 +1,95 @@
+---
+title: "There's Something About Mary Lou"
+pubDate: 2005-07-30
+description: "This piece on Mary Lou Finlay was published in the Ryerson Review of Journalism in 2005 It’s a crisp and sunny Sunday afternoon and I’m standing inside the sparse lobby at the…"
+originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/there-s-something-about-mary-lou"
+---
+
+This piece on Mary Lou Finlay was published in the Ryerson Review of Journalism in 2005
+It’s a crisp and sunny Sunday afternoon and I’m standing inside the sparse lobby at the University of Toronto’s Innis College. I’m looking for Mary Lou Finlay in a crowd of about 30 people. I don’t see the face I’ve memorized from a small, frosted picture on CBC’s website. But I do hear a familiar voice – that low and throaty voice – booming in the hall. Eventually, Finlay materializes from behind a large brick column. With her grey hair set in curls and wire-rimmed glasses resting on her nose, she looks nothing like her website picture. But she sounds everything like the voice of
+As It Happens
+, the CBC current-affairs radio program she’s hosted for the past seven-and-a-half years.
+Finlay shouldn’t be that hard to pick out in a crowd. Over the past 30 years, she has hosted a number of TV programs – from her first national job in the 1970s at CBC’s afternoon lifestyle show,
+Take 30
+, to
+The Journal
+, the network’s pioneering television current-affairs program that she co-anchored with Barbara Frum in its early years. She also spent three years at CTV’s
+Live It Up!
+in the late 1970s and has a long history as host on CBC radio. Along the way, she’s earned a reputation as one of Canada’s most talented interviewers.
+With a resume like that, I’d think her face would be more familiar, like Frum’s or Peter Gzowski’s. But Finlay never took her turn in the limelight, partly because she has deliberately kept a low profile and rarely given interviews. Being Canadian and a journalist makes her more of pseudo-celebrity than the real deal – a point she herself is quick to raise.
+Then there’s the CBC itself, a place Finlay describes as “very, very bizarre.” Despite her prominence and on-air presence, her career with Canada’s public broadcaster has been tumultuous. Between budget cuts, senior staff changes, and some of her own career choices, Finlay has been discovered, promoted, demoted, and laid off, only to be rediscovered, in what sometimes seems like an endless cycle. “To be successful at the CBC, you need to be exceptional at organizing your career,” says Peter Herrndorf, a former CBC executive who helped create
+The Journal
+. “Or you need a mentor who assures a certain amount of responsibility, who’ll look out for you. At one moment you can be one of two woman hosts at
+The Journal
+and a couple years later, there’s no interest. Then people rediscover you. It’s unfortunate.”
+But none of this is what Finlay is here to talk about today at Innis College. The event is a promotion for
+This Hour Has Seven Decades
+, the autobiography of Patrick Watson, the veteran CBC writer, producer, and interviewer who once also served as the chairman of the board of directors. Finlay is here to lead Watson through a public discussion, and a few minutes after I spot her, she follows him into a theatre where they take their places on a pair of awkward barstools arranged next to a table. Finlay begins interviewing Watson. Her style is conversational and, for the most part, effortless. But she fiddles with the plastic cap from her water bottle and plays with her hands, arranging her notes (hidden behind a copy of Watson’s book) just so. A nervous habit surfaces – a slight facial twitch, the same twitch that came out during Finlay’s first television audition. This is the face behind the voice.
+A few weeks after our first meeting at Innis College – and after I’ve made numerous attempts to arrange an interview – Finlay agrees to sit down. We convene over weak coffee at a café blessed with the misnomer Ooh La La, on the ground floor of CBC headquarters in downtown Toronto. It’s taken a while, but she seems to have warmed to me. Still, she really only loosens up when she’s taking about, say, science (because she likes solid facts) or her time at Harvard University (where she spent a year in 1987 on a Nieman Fellowship), or books (now 58, she laments that Zadie Smith was only 21 when she wrote her best-selling first novel,
+White Teeth
+. “If that doesn’t make you want to jump of a cliff…”).
+It’s obvious that Finlay is not comfortable talking about herself. In some areas, she refuses to comment at all. A
+Toronto Star
+article from 1987 mentions that Finlay “draws an icy line around her personal life.” I ask Finlay about her 27-year-old son, who she raised as a single mother following her divorce in the ’70s. Her smile vanishes and she turns tight-lipped. “That’s personal,” she says in a tone that makes me want to drop and say a hundred Hail Marys.
+On the professional front, she’s only a little more obliging, preferring to speak in broad terms rather than intimate details. But friends and colleagues help me suss her out. They describe her as a tough person, but friendly and caring, someone who is firm in her opinions but also willing to listen and change. “Mary Lou is opinionated without being judgmental,” says Ruth-Ellen Soles, a longtime friend and the head of public relations for CBC. Thomas Rose, the only producer at
+As It Happens
+who has been around since Michael Enright was host, offers a similar assessment. “I’d call her professional. She can be [difficult], but so can I. When you’re passionate, it means you get emotional.” Rose adds that he has lots of “professional arguments” with Finlay. As an example, he describes a dispute from last November, in which he battled with her over whether to run an interview with Mia Farrow as a lead item. Farrow was in the Darfur region of Sudan, where she worked with UNICEF, and hoped to use her celebrity to draw media attention to the humanitarian crisis there. “Mary Lou thought I’d gone insane for suggesting it,” Rose says.
+Finlay didn’t think the Farrow story was necessary, since
+As It Happens
+had been one of the first outlets to cover the Sudan crisis. She resisted the suggestion on principle, questioning the value of having a celebrity talk about the cause. But Rose kept asking Finlay about it and, “by the third conversation, she said okay.” It turned out to be a great segment, a testament as much to Finlay’s skills as an interviewer as to the importance of what Farrow had to say.
+Today, Finlay is a highly regarded journalist, but her entry into the profession happened almost by accident. Her rise began back in 1970, just a few years after she earned her bachelor of arts degree in French and English literature from the University of Ottawa. After graduation, she went to work at the Canadian War Museum. But she knew it wasn’t her calling. On the drive home every night, she’d listen to Elizabeth Gray on CBC’s local show from 4 P.M. to 6 P.M. and think, “That’s what I’d like to be.”
+One day, a researcher named Dave Mulholland from CBOT, the local CBC outfit, walked into the museum with a camera crew. His crew was shooting a TV special on the anniversary of the defence of Hong Kong, and wanted to film some items in the museum. “I’d love to do what you do,” Finlay told Mulholland. Some weeks later, he called her and told her about a new half-hour public affairs show called
+Four for the Road
+that CBOT was starting. Finlay applied to the show as a researcher, but the producer had already hired one. Instead, he asked if she’d like to audition for the host position. Without an invitation, she says she “wouldn’t have had the nerve to apply.” With little to lose, Finlay accepted and despite her lack of experience, won the job. “If anything, I had the edge,” she says. “By the time I went into the field in the 1970s, everybody wanted women.”
+Finlay’s career progressed quickly over the next decade. She moved to Toronto in 1975 to host
+Take 30
+, a national afternoon magazine program. She then hosted
+Finlay and Company
+, a summer show that featured profiles. She moved to CTV in 1978 to co-produce and host the consumer show
+Live It Up!
+. She relished the break from the CBC, but in 1981, Mark Starowicz, producer of
+The Journal
+, offered Finlay a co-host position. Finlay says, “Everyone knows it’s better to work at CTV – it’s easier to get things done without the bureaucracy of the CBC.” But she couldn’t resist the challenge.
+People made a big deal about the
+Journal
+when it debuted in 1982 as a part of the revamping of CBC television’s nightly news package. Following
+The National
+, the network’s main news report,
+The Journal
+took an innovative approach to current affairs with in-depth reports, original documentaries, interviews, and debates. But even if the format was fresh, much of the attention the show initially received centred on the fact it was hosted by two women – something unheard of at the time. “Everybody thought it was kinky,” Finlay says, laughing. People interviewed Starowicz,
+The Journal
+‘s executive producer, about it all the time. “I don’t think he picked me because I was a woman. He picked me in spite of that.”
+At the time,
+The Journal
+was a career peak for Finlay. But it wasn’t without its frustrations. By 1987, when she returned from Harvard, she had had enough of the looks-obsessed demands of television. “You have no idea what it means not to be constantly hunting for new silk blouses, not to wear high heels and makeup everyday,” she told the
+Star
+that year in a rare interview, adding, “If I wanted to be a model, being on the box all the time is fine.”
+The year away should have been a career highlight, but on her return to
+The Journal
+she found the co-host’s chair was not waiting for her. Instead, Finlay was demoted to the position of senior documentary journalist. The
+Star
+quoted her talking up her new position. Today, however, she describes it as a blow. “Mark [Starowicz] said, ‘Too bad. The world doesn’t stand still.’ I wasn’t very happy,” Finlay says. “On reflection, I should have expected that.”
+Either way, Finlay did not last with the program. She left a short time later to host the national radio current-affairs show
+Sunday Morning
+. It was a scintillating change from the world of television and the disappointment of her demotion at
+The Journal
+. Even then, she could not escape the CBC cycle of discovery, promotion, and change. She stayed with the program until 1994, when CBC executives decided it was time for another move. Eventually, she was given the opportunity to create a new, two-person program,
+Now the Details
+, which reported on media. But that didn’t last either.
+In 1997, budget cuts saw CBC radio restructuring itself into a BBC-like system. CBC Radio was divided into CBC Radio One, CBC Radio Two, and their younger sister, CBC Radio 3. This meant casualties, of which Finlay was one.
+Now the Details
+was cut, and again, Finlay wasn’t promised another position. She did expect to have seniority, but thought it was a good time to leave. “It’s a bit like living in a war zone,” she told
+Maclean’s
+in 1997. “You get used to a bit of carnage and you carry on.”
+For Finlay, it nearly meant leaving CBC. She accepted an offer for a chair on the board of the journalism program at the University of Regina. Before she even left for Saskachewan, she got an offer to host
+As It Happens
+. Finlay didn’t give it a second thought – she jumped at the chance to join what she calls “the best show” on radio.
+On the mid-November morning that I visit
+As It Happens
+, everyone is waiting for Yasser Arafat to die. Not hoping he’ll die, mind you, but preparing to move on the story if the ailing leader of the Palestinian Liberation Organization should pass away today. Finlay has made dinner plans tonight, but she’s alerted her friend to leave if she hasn’t arrived by 7 P.M. (Although
+As It Happens
+starts at 6:30 P.M., its segments are pre-taped throughout the day and assembled before the show airs.) If she’s late, it’s probably because Arafat has died.
+The office is quiet except for the hushed murmur that circulates around the cubicles. The show’s segment producers, mostly people in their 20s and 30s, talk on phones at their desks. Television sets affixed to the ceiling are scattered around, reflecting off giant windows that face a brick wall. I am hard-pressed to find a difference between this and, say, a bank office. Same grey dress pants, same lame jokes. “You sure came on a bad day,” Finlay says. “Nothing’s happening. There’s no mix today. It’s flat. Nothing quirky.”
+A contributing factor to an unusual malaise in the air is probably uncertainty about the future. CBC’s budget is up for review (again), and the staff is bracing for cuts. (If they come, they will be announced in April, after this story goes to press.) As a result, most employees won’t say much of anything about the network, except that it’s a good place to work. For Finlay, all of this must be familiar. “It seems like they want to turn us corporate,” she laments. “Like they want us to run like an insurance office.” She wants her show to be different than the rest of CBC, but the realities of today take precedence over thoughts of the future. She moves into the studio to tape an interview, and her big voice floats around the office.
+“The CBC is a strange place,” says Finlay later. “I’ve thought of leaving a million times, but whenever I am up against the actual idea I find it hard to imagine.” Indeed, through it all, she’s stood by the CBC and the CBC has stood by her. They’ve endured many struggles over the last 30 years, but have always found themselves reuniting for a fresh start: good apart, better together, but not forever.
+Six o’clock rolls around and Arafat is still alive. Finlay gets to keep her dinner plans. She gets on the elevator and heads toward her car. She’ll be back tomorrow.
