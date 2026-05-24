@@ -13,17 +13,19 @@ Customers had no easy way to translate their spending into the dollar value of a
 
 ## The approach
 
-I led content design on the calculator as part of a cross-functional product team. The work sat at the intersection of UI copy, product strategy, and trust — every label, helper text, and result statement had to do three things at once: be accurate, be plain, and align with how the broader product team wanted to position the cards.
+I led content design on the calculator, working alongside UX research and design, product, marketing, and legal and compliance. The work sat at the intersection of UI copy, product strategy, and trust — every label, helper text, and result statement had to be accurate, plain, and aligned with the cards experience around it.
 
-That meant:
+The content was grounded in two things: UX best practices for transactional tools, and quantitative research — including user interviews I ran in partnership with the UX research team — that told us how people actually talk about their spending and what they want to know before they apply for a card.
 
-- Writing input labels and helper text that matched how people actually think about their spending, not how the bank categorizes transactions internally
-- Designing result copy that gave a clear answer without overpromising
-- Staying tightly aligned with product strategy so the calculator reinforced — rather than competed with — the rest of the cards experience
+That shaped:
+
+- Input labels and helper text that matched how customers think about categories like groceries and gas, not how the bank classifies them internally
+- Result copy that gave a clear, honest answer without overpromising
+- Tight alignment with product strategy so the calculator reinforced — rather than competed with — the rest of the cards experience
 
 ## The outcome
 
-The tool launched in 2023 and drove measurable lifts in both conversions and engagement.
+The tool launched in 2023 and drove lifts in both engagement and credit card applications.
 
 ## Reflection
 
