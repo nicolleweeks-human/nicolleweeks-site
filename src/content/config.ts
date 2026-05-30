@@ -12,6 +12,9 @@ const baseSchema = z.object({
   kicker: z.string().optional(),
   standfirst: z.string().optional(),
   preamble: z.string().optional(),
+  externalUrl: z.string().optional(),
+  externalSource: z.string().optional(),
+  substackUrl: z.string().optional(),
 });
 
 const writing = defineCollection({ type: 'content', schema: baseSchema });

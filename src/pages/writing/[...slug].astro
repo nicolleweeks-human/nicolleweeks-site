@@ -17,6 +17,7 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', {
   month: 'long',
   day: 'numeric',
 });
+const isExternal = Boolean(post.data.externalUrl);
 ---
 
 <Layout title={`${post.data.title} — Nicolle Weeks`} description={post.data.description}>
@@ -68,12 +69,27 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', {
       <img class="article-mag-hero" src={post.data.heroImage} alt="" loading="eager" />
     ) : null}
 
-    {post.data.preamble && (
-      <p class="article-mag-preamble">{post.data.preamble}</p>
+    {isExternal ? (
+      <div class="article-mag-external">
+        <a class="external-cta" href={post.data.externalUrl} target="_blank" rel="noopener">
+          Read the full piece on {post.data.externalSource ?? 'the original publication'}
+          <span aria-hidden="true"> ↗</span>
+        </a>
+        {post.data.substackUrl && (
+          <p class="external-credit">
+            Originally featured in <a href={post.data.substackUrl} target="_blank" rel="noopener">Human+AI</a>, Nicolle's Substack on AI literacy for working professionals.
+          </p>
+        )}
+      </div>
+    ) : (
+      <>
+        {post.data.preamble && (
+          <p class="article-mag-preamble">{post.data.preamble}</p>
+        )}
+        <div class="article-mag-body">
+          <Content />
+        </div>
+      </>
     )}
-
-    <div class="article-mag-body">
-      <Content />
-    </div>
   </article>
 </Layout>
