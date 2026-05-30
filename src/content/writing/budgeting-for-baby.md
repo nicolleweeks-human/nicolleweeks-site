@@ -4,9 +4,8 @@ pubDate: 2019-10-22
 description: "This first appeared on todaysparent.com . (Client: Costco)"
 heroImage: "/images/writing/budgeting-for-baby.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/budgeting-for-baby"
+preamble: "This first appeared on todaysparent.com . (Client: Costco)"
 ---
-
-This first appeared on todaysparent.com . (Client: Costco)
 
 Sleepless nights, figuring out a schedule (like when to shower, for instance) and learning how to feed a baby are more than enough to keep a new parent on her toes. But now you have to budget, too? That’s enough to send you straight to your nearest takeout app to relieve some of that pressure. Don’t worry, we’ve got you covered: here are some smart ways to save money while you focus on the most important thing in the world - that brand new little bundle (finally) sleeping in the just-constructed crib beside you. Because, as you’ve probably figured out by now, budgeting is best handled after a big cup of coffee while the baby naps. Here are some helpful tips to make sure you’re best stretching that parental leave money.
 

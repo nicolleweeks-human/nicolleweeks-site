@@ -53,6 +53,9 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', { year: 'numeric', m
       ) : post.data.heroImage ? (
         <img class="article-hero" src={post.data.heroImage} alt="" loading="lazy" />
       ) : null}
+      {post.data.preamble && (
+        <p class="article-preamble">{post.data.preamble}</p>
+      )}
       <div class="article-body">
         <Content />
       </div>

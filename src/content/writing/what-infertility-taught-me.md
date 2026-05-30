@@ -4,9 +4,8 @@ pubDate: 2018-04-03
 description: "I wrote this piece for Today's Parent."
 heroImage: "/images/writing/what-infertility-taught-me.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/what-infertility-taught-me"
+preamble: "I wrote this piece for Today's Parent."
 ---
-
-I wrote this piece for Today's Parent.
 
 Always the planner for every possible outcome, I decided to take the afternoon off work following a doctor’s appointment with my husband to find out our fertility test results . “Yeah,” my friend told me, “that’s a good idea. It might be a really heavy appointment.”
 

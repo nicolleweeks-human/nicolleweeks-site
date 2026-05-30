@@ -4,9 +4,8 @@ pubDate: 2024-04-17
 description: "(Client: Today's Parent x Little Bellies)"
 heroImage: "/images/writing/the-three-stages-of-eating-what-to-feed-your-baby-and-toddler.webp"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/the-three-stages-of-eating-what-to-feed-your-baby-and-toddler"
+preamble: "(Client: Today's Parent x Little Bellies)"
 ---
-
-(Client: Today's Parent x Little Bellies)
 
 Take your baby on a tasty adventure. Follow their developmental milestones to discover the best meals and snacks for every stage.
 

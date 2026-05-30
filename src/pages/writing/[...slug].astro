@@ -68,6 +68,10 @@ const date = post.data.pubDate?.toLocaleDateString('en-CA', {
       <img class="article-mag-hero" src={post.data.heroImage} alt="" loading="eager" />
     ) : null}
 
+    {post.data.preamble && (
+      <p class="article-mag-preamble">{post.data.preamble}</p>
+    )}
+
     <div class="article-mag-body">
       <Content />
     </div>

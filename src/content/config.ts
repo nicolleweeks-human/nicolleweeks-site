@@ -11,6 +11,7 @@ const baseSchema = z.object({
   featured: z.boolean().optional(),
   kicker: z.string().optional(),
   standfirst: z.string().optional(),
+  preamble: z.string().optional(),
 });
 
 const writing = defineCollection({ type: 'content', schema: baseSchema });

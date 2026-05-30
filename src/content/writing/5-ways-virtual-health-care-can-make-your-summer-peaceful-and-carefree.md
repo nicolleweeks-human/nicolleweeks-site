@@ -4,9 +4,8 @@ pubDate: 2024-06-14
 description: "(Client: Today's Parent x Maple)"
 heroImage: "/images/writing/5-ways-virtual-health-care-can-make-your-summer-peaceful-and-carefree.webp"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/5-ways-virtual-health-care-can-make-your-summer-peaceful-and-carefree"
+preamble: "(Client: Today's Parent x Maple)"
 ---
-
-(Client: Today's Parent x Maple)
 
 Vacations are easier when you’re not worrying about your kids’ health.
 

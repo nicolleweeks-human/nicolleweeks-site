@@ -6,9 +6,8 @@ pubDate: 2024-09-03
 description: "Three women on the quiet, sustained work of protecting their mental health through fertility."
 heroImage: "/images/writing/how-three-women-prioritized-their-mental-health-while-trying-to-conceive.png"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/how-three-women-prioritized-their-mental-health-while-trying-to-conceive"
+preamble: "(Client: Today's Parent x First Response)"
 ---
-
-(Client: Today's Parent x First Response)
 
 Finding support and strength in the hardest moments of fertility treatment. "I lost myself," Joanne recalls, reflecting on her seven-year struggle to conceive. Like many women, what she once believed would be a joyful journey to motherhood turned into an exhausting battle with infertility, marked by endless clinic visits and mounting emotional strain. In Canada, one in six women face this same difficult reality—transforming what should be a natural process into a deeply challenging experience. For many, the emotional toll of infertility is comparable to enduring a serious illness , making the need for support and self-compassion crucial.
 

@@ -4,9 +4,8 @@ pubDate: 2021-08-30
 description: "(Client: Staples Canada)"
 heroImage: "/images/writing/a-beginner-s-guide-on-how-to-set-up-a-smart-home.jpeg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/a-beginner-s-guide-on-how-to-set-up-a-smart-home"
+preamble: "(Client: Staples Canada)"
 ---
-
-(Client: Staples Canada)
 
 It wasn’t long ago that a home equipped with tech that automates simple tasks like turning on the lights was the stuff of sci-fi movies. If you feel like it’s still out of reach, the good news is, smart homes are here, for real. With Wi-Fi and a smartphone, you’re halfway to having your own digital personal assistant at home. “People assume that my house looks like The Jetsons , [but] it’s not overly automated,” says tech expert and journalist Marc Saltzman. “I have a Wi-Fi thermostat, a smart camera system, smart speakers and displays in almost every room.”
 
