@@ -4,9 +4,10 @@ pubDate: 2005-06-23
 description: "This article appeared on RRJ.ca and was famously plagiarized by Jill Abramson in her book To look at him, you wouldn’t know Gavin McInnes is the wealthy head of a “multinational…"
 heroImage: "/images/writing/bigot-or-champion-of-truth.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/bigot-or-champion-of-truth"
+preamble: "This article appeared on RRJ.ca, and was famously plagiarized by Jill Abramson in her book."
 ---
 
-This article appeared on RRJ.ca and was famously plagiarized by Jill Abramson in her book To look at him, you wouldn’t know Gavin McInnes is the wealthy head of a “multinational brand.” You might mistake him for an average thirtysomething, though – one whose earlier indiscretions are responsible for a few too many trips to the tattoo parlour. Last year, at a book reading in Chicago, he appeared on stage wearing only what looked to be shit-stained tighty whities and, later, a cartoonish turban and Osama bin Laden T-shirt.
+To look at him, you wouldn’t know Gavin McInnes is the wealthy head of a “multinational brand.” You might mistake him for an average thirtysomething, though – one whose earlier indiscretions are responsible for a few too many trips to the tattoo parlour. Last year, at a book reading in Chicago, he appeared on stage wearing only what looked to be shit-stained tighty whities and, later, a cartoonish turban and Osama bin Laden T-shirt.
 
 McInnes was in Chicago to promote Dos and Don’ts , a collection he wrote over the 10 years Vice magazine has been in existence.
 

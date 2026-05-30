@@ -4,9 +4,10 @@ pubDate: 2008-08-26
 description: "This Q&A with Nina Garcia appeared on eonline.ca Nina Garcia | Photo credit Mark Abrams Project Runway judge and mega fashionista Nina Garcia gives E! Online the skinny on being…"
 heroImage: "/images/writing/nina-garcia-s-style-tips.jpeg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/nina-garcia-s-style-tips"
+preamble: "This Q&A with Nina Garcia appeared on eonline.ca. Photo credit: Mark Abrams."
 ---
 
-This Q&A with Nina Garcia appeared on eonline.ca Nina Garcia | Photo credit Mark Abrams Project Runway judge and mega fashionista Nina Garcia gives E! Online the skinny on being stylin with tips from her new book, The One Hundred , which hits stores today.
+Project Runway judge and mega fashionista Nina Garcia gives E! Online the skinny on being stylin with tips from her new book, The One Hundred , which hits stores today.
 
 E!: Tell us about your new book.
 

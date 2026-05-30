@@ -4,9 +4,10 @@ pubDate: 2008-06-03
 description: "This interview was conducted for showcase.ca With a title like that, I feel like I should be wearing a smoking jacket and smoking a pipe, but instead I’ve got on my laundry day…"
 heroImage: "/images/writing/a-conversation-with-jamie-lidell.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/a-conversation-with-jamie-lidell"
+preamble: "This interview was conducted for showcase.ca."
 ---
 
-This interview was conducted for showcase.ca With a title like that, I feel like I should be wearing a smoking jacket and smoking a pipe, but instead I’ve got on my laundry day attire. No matter, I did the interview over the phone with Lidell as he hungrily waited for a meal at a truck stop somewhere in Washington State. It got slightly weird, but it was always interesting. If you want to win an awesome tour poster, a cute button and Jamie's amazing new CD, Jim (one of my faves this year by far), mosey along to our newsletter page to enter our Jamie Lidell contest. Now sit back and enjoy what might go down as the best interview in my history.
+With a title like that, I feel like I should be wearing a smoking jacket and smoking a pipe, but instead I’ve got on my laundry day attire. No matter, I did the interview over the phone with Lidell as he hungrily waited for a meal at a truck stop somewhere in Washington State. It got slightly weird, but it was always interesting. If you want to win an awesome tour poster, a cute button and Jamie's amazing new CD, Jim (one of my faves this year by far), mosey along to our newsletter page to enter our Jamie Lidell contest. Now sit back and enjoy what might go down as the best interview in my history.
 
 Jaime Lidell: Yes!
 
