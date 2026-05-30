@@ -1,4 +1,5 @@
 ---
+preamble: "I interviewed Taylor Swift for Channel 4 in 2010."
 title: "Cuppa With Songstress Taylor Swift"
 pubDate: 2010-10-28
 description: "I interviewed Taylor Swift for Channel 4 in 2010 Taylor Swift is exactly how you imagine she'd be: really friendly. She looks just as great in person as she does in magazines with…"

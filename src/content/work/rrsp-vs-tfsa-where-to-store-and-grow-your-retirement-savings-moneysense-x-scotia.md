@@ -2,7 +2,7 @@
 title: "RRSP vs TFSA: Where to store and grow your retirement savings (MoneySense x Scotia)"
 pubDate: 2018-02-22
 description: "This was part of a large partnership between Rogers Publishing and Scotia. Scotia wanted a program that would span across our brands (Today's Parent, Chatelaine, MoneySense and…"
-heroImage: "/images/writing/rrsp-vs-tfsa-where-to-store-and-grow-your-retirement-savings-moneysense-x-scotia.png"
+heroImage: "/images/work/rrsp-vs-tfsa-where-to-store-and-grow-your-retirement-savings-moneysense-x-scotia.png"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/rrsp-vs-tfsa-where-to-store-and-grow-your-retirement-savings-moneysense-x-scotia"
 ---
 

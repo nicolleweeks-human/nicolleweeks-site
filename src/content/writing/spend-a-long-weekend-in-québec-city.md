@@ -4,9 +4,8 @@ pubDate: 2019-11-25
 description: "This article appeared on Chatelaine.com . (Client: Québec City Tourism)"
 heroImage: "/images/writing/spend-a-long-weekend-in-québec-city.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/spend-a-long-weekend-in-québec-city"
+preamble: "This article appeared on Chatelaine.com . (Client: Québec City Tourism)"
 ---
-
-This article appeared on Chatelaine.com . (Client: Québec City Tourism)
 
 We aren’t ones to turn down world-class food and wine and gorgeous backdrops for our Instagram photos. So, when we stepped out of the car on our road trip to Québec City, we weren’t disappointed. We took travel expert Jenn Weatherhead with us to discover some standout spots in the gorgeous region of Québec City. In partnership with Québec City Tourism.
 
@@ -29,3 +28,4 @@ Parc de la Chute-Montmorency It’s only a twenty minute drive outside the main 
 La Barberie We wanted to pretend we were locals, so we went off the beaten track to take a tour of La Barberie , a pioneer micro-brewing cooperative (which, as artisan beer lovers, we can totally vouch for). It’s located in the trendy Saint-Roch neighbourhood (think Brooklyn), and the large relaxed terrace is known for its stunning urban landscaping. The beer flight was amazing, and you’re allowed to bring your own food, so we ate all the delicious food we bought at the Marché. And they have board games. Enough said.
 
 Local food and good wine with an incredible atmosphere as the backdrop - that’s Québec City. We discovered a city full of bustling streets with more delicious food and wine than you can get through in one trip, which makes for a perfect reason to plan a future jaunt to la belle province.
+

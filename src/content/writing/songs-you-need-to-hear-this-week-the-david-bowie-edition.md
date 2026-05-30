@@ -4,9 +4,10 @@ pubDate: 2016-01-12
 description: "I wrote many pieces for CBC Music, including several collaborative pieces like this one By CBC Music Editorial Staff Normally we spend each Tuesday suggesting brand new tracks you…"
 heroImage: "/images/writing/songs-you-need-to-hear-this-week-the-david-bowie-edition.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/songs-you-need-to-hear-this-week-the-david-bowie-edition"
+preamble: "I wrote many pieces for CBC Music, including several collaborative pieces like this one By CBC Music Editorial Staff"
 ---
 
-I wrote many pieces for CBC Music, including several collaborative pieces like this one By CBC Music Editorial Staff Normally we spend each Tuesday suggesting brand new tracks you need to hear. This week calls for something different. We’re using this space to pay tribute to our favourite David Bowie songs, in honour of the Thin White Duke and his glittering legacy.
+Normally we spend each Tuesday suggesting brand new tracks you need to hear. This week calls for something different. We’re using this space to pay tribute to our favourite David Bowie songs, in honour of the Thin White Duke and his glittering legacy.
 
 From Bowie’s isolated vocal tracks to a Nirvana cover, here are this week’s songs you need to hear, the David Bowie edition.
 
@@ -63,3 +64,4 @@ What's equally incredible is that Bowie was able to pull this same stunt right u
 The lyrics are seemingly simple, but quite heavy in context. Bowie was retreating from his time in America and his drug addiction, and as he said in an 1978 interview, "It was wanting to be put in a little cold room with omnipotent blue on the walls and blinds on the windows." Hence you get the pleading "blue, blue, electric blue" refrain. Such an upbeat song, perfect to be played with the windows down, but it's actually about retreating, embracing solitude and waiting for the gift of sound and vision. — Jeanette Cabral ( @JeanetteCabral )
 
 'Ashes to Ashes' “Oh no, don’t say it’s true.” It is with the heaviest of hearts that I take to writing these words. An epitaph to an eventful era, “Ashes to Ashes” wistfully ushered in a 1980s new-wave Bowie. Today, 36 years later, this ode rings true again as we enter yet another era —one lit only with the memory of this star. Ashes to ashes, stardust to stardust. —Amer Alkhatib ( @ameralkhatib )
+

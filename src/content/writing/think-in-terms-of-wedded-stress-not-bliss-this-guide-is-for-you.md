@@ -4,9 +4,8 @@ pubDate: 2009-07-06
 description: "This piece was syndicated across Canada by Canwest News Service and appeared in several newspapers."
 heroImage: "/images/writing/think-in-terms-of-wedded-stress-not-bliss-this-guide-is-for-you.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/think-in-terms-of-wedded-stress-not-bliss-this-guide-is-for-you"
+preamble: "This piece was syndicated across Canada by Canwest News Service and appeared in several newspapers."
 ---
-
-This piece was syndicated across Canada by Canwest News Service and appeared in several newspapers.
 
 A guide for the stressed wedding guest Yeah, yeah, yeah. Being a bride is stressful. There's so much to plan, do, eat, et cetera.
 
@@ -37,3 +36,4 @@ Between bachelorette parties, wedding and shower gifts, and being part of the br
 Be a good guest.
 
 If you decide to go to the wedding, behave yourself. Don't get so drunk that there are embarrassing pictures of you all over the Internet the next day. Don't fall asleep during the aforementioned boring speeches. Don't be late and don't stuff yourself with the free grub and leave immediately. Remember, these people just might attend your "big day," so build up some good karma by being a good guest.
+

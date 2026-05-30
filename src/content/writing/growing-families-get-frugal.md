@@ -4,9 +4,8 @@ pubDate: 2019-10-18
 description: "This content appeared on todaysparent.com . (Client: Costco)"
 heroImage: "/images/writing/growing-families-get-frugal.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/growing-families-get-frugal"
+preamble: "This content appeared on todaysparent.com . (Client: Costco)"
 ---
-
-This content appeared on todaysparent.com . (Client: Costco)
 
 Having your first baby can be stressful, but what about your second or third? Dealing with a new addition to the family is incredibly exciting, but also can induce a bit of nail-biting. You already know the ropes (sleep training, feeding schedules, diaper runs) but how will you manage all that while taking care of - and paying for - the rest of the family? We’ve got you covered with these money-saving tips.
 
@@ -19,3 +18,4 @@ Costco can help Shopping at Costco can help - if you’re able to make a meal pl
 Shopping can seem like something you have to shoehorn into your plans, but if you plan ahead, it can be an event that everyone enjoys. Shopping at Costco saves you valuable weekend time because instead of hitting three stores, you can grab gas, groceries and everything else you need. it’s also a fun activity for everyone in the family. Can you say “free samples”?
 
 Get a credit card that works for you Speaking of Costco, did you know that the Costco Capital One Mastercard doubles as your Costco membership? It’s a nice perk and you also get cash back on virtually all your purchases (not just at Costco - but why would you want to shop anywhere else?). Save yourself the annual membership feed that comes with other cards and track your expenses all in one place when you use the card. You’ll also get travel benefits like car rental insurance, travel accident insurance and baggage delay and travel assistance for when you take that cute little fam jam on a road trip. (Don’t forget the snacks!)
+

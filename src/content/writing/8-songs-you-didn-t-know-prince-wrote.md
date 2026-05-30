@@ -4,9 +4,8 @@ pubDate: 2016-04-21
 description: "I wrote about Prince shortly after his death for CBC."
 heroImage: "/images/writing/8-songs-you-didn-t-know-prince-wrote.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/8-songs-you-didn-t-know-prince-wrote"
+preamble: "I wrote about Prince shortly after his death for CBC."
 ---
-
-I wrote about Prince shortly after his death for CBC.
 
 Prince’s versatility as an artist is instantly recognizable listening to his wide-ranging discography. From his debut in the '70s to his last release, the genius with which Prince was able to compose music to life is beyond compare.
 
@@ -29,3 +28,4 @@ Nothing Compares 2 U,' Sinead O’Connor Many Prince fans are well aware that Si
 'How Come You Don’t Call Me,' Alicia Keys Originally released in 1982 by Prince as a non-album B-side to "1999," this song was released by Alicia Keys in 2001 on her debut album, Songs in A Minor. Keys’ version stays true to Prince’s original.
 
 'When You Were Mine,' Cyndi Lauper Cyndi Lauper was at the height of her success in 1985 when she performed her version of this Prince song at the American Music Awards. Written by Prince for his 1980 album, Dirty Mind, the song also appeared as a B-side on his 1981 single "Controversy."
+
