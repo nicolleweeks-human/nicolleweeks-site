@@ -6,9 +6,10 @@ pubDate: 2013-10-08
 description: "An interview with Tony Bennett on six decades of song, his collaborators, and the discipline of staying current."
 heroImage: "/images/writing/tony-bennett-on-frank-sinatra-lady-gaga-and-his-new-album-live-at-the-sahara.jpg"
 originalUrl: "https://nicolleweeks6.wixsite.com/mysite-1/post/tony-bennett-on-frank-sinatra-lady-gaga-and-his-new-album-live-at-the-sahara"
+preamble: "I had the pleasure of interviewing Tony Bennett for CBC.ca."
 ---
 
-I had the pleasure of interviewing Tony Bennett for CBC.ca Tony Bennett’s catalogue extends over 60 years, and his career is an extensive one. Bennett has worked with a plethora of heavy-hitter artists – everyone from Aretha Franklin to Elvis Costello to Michael Bublé. His legacy continues to grow, despite the fact he’s approaching his 90s.
+Tony Bennett’s catalogue extends over 60 years, and his career is an extensive one. Bennett has worked with a plethora of heavy-hitter artists – everyone from Aretha Franklin to Elvis Costello to Michael Bublé. His legacy continues to grow, despite the fact he’s approaching his 90s.
 
 We had the rare opportunity to speak with Bennett about his new album, Live at the Sahara: Las Vegas, 1964. He talked to us about Vegas's good old days, singing jazz with Lady Gaga and why he hasn't retired, despite being just shy of 90.
 
